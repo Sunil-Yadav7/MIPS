@@ -27,6 +27,7 @@ module ALU_32bit(
     
     // Adder for add and subtract operations
     thirtytwo_bit_adder adder(.S(add_result), .C32(cout), .A(A), .B(B_modified), .Cin(cin));
+
     
     // AND operation
     genvar j;
